@@ -59,7 +59,7 @@ public class RadixSort {
      * @param array El arreglo a ordenar.
      * @return El arreglo ordenado.
      */
-    public ArrayList<Integer> RadixSort(ArrayList<Integer> array) {
+    public ArrayList<Integer> radixSort(ArrayList<Integer> array) {
         int index = 0;
 
         // Este bloque de código parece ser una implementación incorrecta de Radix Sort,

@@ -98,7 +98,7 @@ public class Principal {
                     for (int k = 10; k <= 3000; k++) {
                         radixSort.ordenar(new ArrayList<>(arreglo.subList(0, k)));
                         if (k == 3000) {
-                            generador.escribirArchivoOrdenado(radixSort.RadixSort(arreglo));
+                            generador.escribirArchivoOrdenado(radixSort.radixSort(arreglo));
                         }
                     }
                     System.out.println("El RadixSort se ejecutó correctamente.");
